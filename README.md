@@ -14,6 +14,10 @@ Build a calculator that supports:
 - Clear functionality
 - Equals functionality
 - Divide-by-zero handling
+## 🌐 Live Demo
+
+[View Live Demo](https://vishal-maddheshiya.github.io/basic-calculator/)
+
 
 ## 🚀 Features
 
@@ -47,3 +51,10 @@ SevenDay/
 ├── style.css
 ├── script.js
 └── README.md
+
+## 👨‍💻 Author
+
+**Vishal Maddheshiya**
+
+- GitHub: https://github.com/VISHAL-MADDHESHIYA
+- LinkedIn: https://www.linkedin.com/in/vishal-maddheshiya-b2346133b/
