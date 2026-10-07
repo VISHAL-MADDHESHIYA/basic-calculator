@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-card">
+    <!-- Top Bar: History & Theme Toggle -->
+    <div class="top-bar">
+      <button id="historyToggle" class="icon-btn" title="History">🕒</button>
+      <button id="themeToggle" class="icon-btn" title="Toggle Theme">🌙</button>
+    </div>
+
+    <!-- Display Area -->
+    <div class="display">
+      <div class="previous-operand"></div>
+      <div class="current-operand">0</div>
+    </div>
+
+    <!-- Buttons Grid (4 Columns) -->
+    <div class="buttons-grid">
+      <!-- Row 1 -->
+      <button data-action="clear" class="btn-function">AC</button>
+      <button data-action="delete" class="btn-function">DEL</button>
+      <button data-action="percentage" class="btn-function">%</button>
+      <button data-operator="÷" class="btn-operator">÷</button>
+
+      <!-- Row 2 -->
+      <button data-number="7" class="btn-number">7</button>
+      <button data-number="8" class="btn-number">8</button>
+      <button data-number="9" class="btn-number">9</button>
+      <button data-operator="×" class="btn-operator">×</button>
+
+      <!-- Row 3 -->
+      <button data-number="4" class="btn-number">4</button>
+      <button data-number="5" class="btn-number">5</button>
+      <button data-number="6" class="btn-number">6</button>
+      <button data-operator="-" class="btn-operator">-</button>
+
+      <!-- Row 4 -->
+      <button data-number="1" class="btn-number">1</button>
+      <button data-number="2" class="btn-number">2</button>
+      <button data-number="3" class="btn-number">3</button>
+      <button data-operator="+" class="btn-operator">+</button>
+
+      <!-- Row 5 -->
+      <button data-number="0" class="btn-number">0</button>
+      <button data-number="." class="btn-number">.</button>
+      <button data-action="toggle-sign" class="btn-function">+/-</button>
+      <button data-action="equals" class="btn-equals">=</button>
+    </div>
+
+    <!-- Floating History Panel -->
+    <div class="history-panel" id="historyPanel">
+      <div class="history-header">
+        <h4>History</h4>
+        <div class="header-actions">
+          <button id="clearHistory" class="text-btn">Clear</button>
+          <button id="closeHistory" class="text-btn" style="font-size: 1.2rem; padding: 0 5px;">✕</button>
+        </div>
+      </div>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
