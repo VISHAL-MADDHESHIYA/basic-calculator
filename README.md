@@ -1,56 +1,49 @@
-# 🧮 Modern BMI Calculator
+# 🧮 Basic Calculator
 
-A modern, responsive BMI Calculator built using **HTML5, CSS3, and JavaScript**.  
-This project calculates Body Mass Index (BMI), determines the BMI category, displays an ideal weight range, and stores recent calculations using LocalStorage.
+A responsive and interactive calculator built using HTML5, CSS3, and JavaScript as part of my Day 7 Web Development Internship Task.
 
-## 🚀 Live Demo
+## 📌 Task
 
-🔗 https://vishal-maddheshiya.github.io/bmi-calculator/
+Build a calculator that supports:
 
-## 📂 GitHub Repository
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Decimal values
+- Clear functionality
+- Equals functionality
+- Divide-by-zero handling
 
-🔗 https://github.com/VISHAL-MADDHESHIYA/bmi-calculator
+## 🚀 Features
 
-## ✨ Features
-
-- 🧮 Accurate BMI calculation
-- 📏 Height input in centimeters
-- ⚖️ Weight input in kilograms
-- 📊 BMI category detection
-- 📈 Interactive BMI scale
-- 🎯 Ideal weight range calculation
-- 💬 Health insights based on BMI
-- ⚠️ Input validation
-- 💾 BMI calculation history using LocalStorage
-- 🗑️ Delete individual history records
-- 🧹 Clear complete history
-- 🌙 Dark/Light mode
-- 📱 Fully responsive design
-- ⌨️ Enter-key form support
-- 🎨 Modern card-based UI
-- ⚡ Smooth animations and transitions
-
-## 🧠 BMI Categories
-
-| BMI Range | Category |
-|-----------|----------|
-| Below 18.5 | Underweight |
-| 18.5 – 24.9 | Normal |
-| 25 – 29.9 | Overweight |
-| 30+ | Obese |
+- Clean and responsive user interface
+- Basic arithmetic operations
+- Decimal number support
+- AC (All Clear) button
+- DEL button
+- Divide-by-zero validation
+- Keyboard support
+- CSS Grid calculator layout
+- DOM manipulation using JavaScript
+- Event-driven interaction
+- No use of `eval()`
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript
+- CSS Grid
 - DOM Manipulation
-- LocalStorage
-- Responsive Web Design
+- JavaScript Event Handling
 
-## 📐 BMI Formula
-
-BMI is calculated using:
+## 📂 Project Structure
 
 ```text
-BMI = Weight (kg) / Height² (m)
+SevenDay/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
